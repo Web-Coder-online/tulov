@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 80px 91vh;
+    grid-gap: 1px;
+}
+
+.grid .header {
+    background-color: #353b48;
+    grid-column: 2 / 3;
+}
+
+.grid .menu {
+    background-color: #16354e;
+    color: #949faf;
+    grid-row: 1 / 3; 
+    min-height: 100vh;
+}
+
+.grid .container {
+    background-color: #fbc531;
+    padding: 20px 100px;
+    
+}
+
+.grid .container .box{
+    background-color: #fcd468;
+}
+
+a {
+    text-decoration: none;
+    
+}
